@@ -23,9 +23,9 @@
 
         <nav>
             <ul>
-                <li><a href= "proyectoweb.html">inicio</a></li>
-                <li><a href= "portafolio.html">portafolio</a></li>
-                <li><a href= "contactos.html">Contacto</a></li>
+                <li><a href= "index.html">inicio</a></li>
+                <li><a href= "portafolio">portafolio</a></li>
+                <li><a href= "contactos">Contacto</a></li>
             </ul>
         </nav>
 
