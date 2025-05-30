@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header{
+  padding: 50px;
+  background: url(espana-ciudad-rodrigo-salamanca-pilar-antiguas-familia.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  background-color: #354b86;
+}
+
+nav a{
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.r{
+  display: flex;
+  flex-wrap: wrap;
+}
+aside{+
+  flex: 30px;
+  background-color: rgb(206, 204, 192);
+  padding: 20px;
+}
+section{
+  flex: 70%;
+  background-color: rgb(235, 233, 222);
+  padding: 20px;
+}
+
+footer{
+  padding: 20px;
+  text-align: center;
+  background-color: #354b86;
+}
+@media screen and (max-width: 700px){
+  nav, .row{
+    flex-direction: column;
+  }
+}
+----------
+.content {
+  height: 5ovh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sau{
+  background: oldlace;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem 5rem #1f1d1d(0, 0 , 0, .5);
+  margin: 2rem;
+}
